@@ -1,0 +1,33 @@
+ID;descripcion;tipo_um_ID
+D;Días;TI
+M;Meses;TI
+MM;Milímetros;LO
+PU;Pulgadas;LO
+MT;Metros;LO
+KM;Kilómetros;LO
+CM;Centrímetros;LO
+GR;Gramos;MA
+MG;Miligramos;MA
+TN;Toneladas;MA
+QU;Quilates;MA
+M2;Metros Cuadrados;SU
+M3;Metros Cúbicos;VO
+CM3;Centrímetros Cúbicos;VO
+MM3;Milimetros Cúbicos;VO
+LT;Litros;VO
+ML;Mililitros;VO
+KWH;1000 kWh;EN
+MI;Millares;OU
+PQ;Paquetes;OU
+UN;Unidades;OU
+PA;Pares;OU
+DC;Docenas;OU
+OU;Otras unidades;OU
+Pa;Pascal;PR
+N/m2;Newton por m2;PR
+PSI;Libras por pulgada cuadrada;PR
+ATM;Atmósfera;PR
+bar;bares;PR
+kg/cm2;Kilogramo por cm2;PR
+cm.c.a;Centímetro columna de agua;PR
+m.c.a;Metro columna de agua;PR

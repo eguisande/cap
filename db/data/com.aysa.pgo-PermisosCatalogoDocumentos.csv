@@ -1,0 +1,26 @@
+ID;tipo_permiso_ID;ente_ID;documento;responsable_ID
+e475d31f-8816-4bfd-a0bc-a40a3d8c693d;CA;;Croquis;CO
+e5503976-c006-4f58-bcc4-75456697a57f;CA;;Memoria descriptiva de la tarea a realizar;CO
+e76d7dbf-693b-412d-8bc7-888bdc66d56a;CA;;Croquis adicional con una propuesta de desvío;CO
+edf0c7c8-d492-4aa4-ab88-314cf42f73ca;CA;;Cronograma con localización semanal;CO
+eeb95e41-b496-45b0-85d7-d51a788b6119;MU;;Detalle constructivo de obras subterráneas;CO
+efa77d96-7c42-4c15-acdf-00881723aaf8;MU;;Memoria Descriptiva de la obra;CO
+efd71460-fb53-4eac-8689-fe2be71d5628;MU;;Cómputo y Presupuesto;CO
+f22a4d08-3cd3-48b3-8112-2f36f8015ffb;MU;;Plan de Trabajos;CO
+f520584c-a383-4787-aab5-9cb7300d3894;MU;;1 Copia de Planos;CO
+f64c9d23-d427-4fc7-842b-f5cd0257f5b8;MU;;Croquis de la ubicación de la obra;CO
+f6cf16ab-fdb7-40db-b1e6-5c124e999285;MU;;Pago de Derechos según Ord. Fiscal y Tarifaria;CO
+fd60b40e-67d3-4b52-8836-feca8163373e;MU;;Copias de Planos de las redes y/o gasoductos proporcionados por la Licenciatura, con indicación precisa de la localización de las instalaciones de gas que podrán ser afectadas;CO
+fe3a50a8-a33a-43a2-8f7c-88098e5057e6;MU;;Copias de las notificaciones presentadas ante la Licenciataria acerca de los sondeos previos para ubicar las instalaciones sobre la base de los planos;CO
+27375aed-2dff-430a-b438-cfcf1a9f082e;MU;;Declaración jurada con el compromiso de realizar sondeos previos con elementos de uso manual y con estar en conocimiento del Plan de Prevención de daños;CO
+38077b1f-88db-492c-8e08-c1d168be813b;MU;;Nota dirigida al señor intendente;AY
+06485abc-1e99-4686-b4c6-2c1bb40c28df;MU;;Convenio Marco AySA – Municipalidad;AY
+187dc675-dfb6-4c09-b8ae-7d0861032722;MU;;Acta de posesión del lote;AY
+53b8de44-3ebf-415e-ba5b-2df61f9affc3;ES;ADIF;Memoria descriptiva;CO		
+57ce9ccf-0b7c-469b-ab43-fa6ecd1ce62c;ES;ADIF;Cronograma / Plan de trabajo	;CO		
+ae6976d5-b01d-465b-ae91-7a50e4959684;ES;ADIF;Cómputo de materiales y Presupuesto de Obra;CO	
+bdc29e68-966d-4d34-ba7c-fcbc0e9b7332;ES;ADIF;Planos;CO			
+c46392d5-cb4f-49cb-a0f2-26aeda3364c7;ES;ADIF;Memoria de cálculo;CO			
+c6c9959a-8e05-45f0-a141-e5aa88e54a1d;ES;ADIF;Certificado de impacto ambiental;CO			
+d7f44e95-6096-4d45-b017-3f0e7c043e9d;ES;ADIF;Plan de seguridad aprobado;CO			
+f775c8b0-6311-4747-985a-19ac651ddf7c;ES;ADIF;Declaración jurada presentada en sistema TAD a la cual se deberá adherir;CO

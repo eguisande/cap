@@ -1,0 +1,4 @@
+ID;descripcion;contratista;inspector;jefe_inspeccion
+MI;Minuta;true;true;true
+NN;Nota de no objeción;false;true;true
+NO;Nota;false;true;true

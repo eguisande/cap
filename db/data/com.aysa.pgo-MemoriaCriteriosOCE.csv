@@ -1,0 +1,7 @@
+ID;subitem_ID;montaje;orden_compra;pie_obra;puesta_marcha;avance_taller;proporcional;porcentaje
+e9346ad8-3c40-11ee-be56-0242ac12a302;PROVISION;true;false;false;false;false;false;10
+e9346d6c-3c40-11ee-be56-0242ac120c52;PROVISION;false;true;false;false;false;false;40
+e9346d6c-3c40-11ee-be56-0242ac120b22;PROVISION;false;false;false;false;true;true;40
+e9346d6c-3c40-11ee-be56-0242ac120002;PROVISION;true;false;false;true;false;false;10
+e9346d6c-3c40-11ee-be56-0242ac120102;MONTAJE;false;false;false;true;false;false;80
+e9347532-3c40-11ee-be56-0242ac120442;MONTAJE;true;false;false;false;false;false;20

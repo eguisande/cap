@@ -1,0 +1,110 @@
+## Generated mta.yaml based on template version 0.4.0
+## appName = cappgo
+## language=nodejs; multitenant=false
+## approuter=
+_schema-version: '3.1'
+ID: cappgo
+version: 1.0.0
+description: "A simple CAP project."
+parameters:
+  enable-parallel-deployments: true
+   
+build-parameters:
+  before-all:
+   - builder: custom
+     commands:
+      - npm install --production --force
+      - npx cds build --production
+      - npx rimraf gen/db/src/gen/data
+      - npx rimraf gen/db/data
+modules:
+ # --------------------- SERVER MODULE ------------------------
+ - name: cappgo-srv
+ # ------------------------------------------------------------
+   type: nodejs
+   path: ./gen/srv
+   parameters:
+     buildpack: nodejs_buildpack
+     stack: cflinuxfs4
+   build-parameters:
+     ignore: ["node_modules/"]
+   requires:
+    # Resources extracted from CAP configuration
+    - name: cappgo-db
+    - name: cappgo-destination
+    - name: cappgo-uaa
+    - name: cappgo-log
+   provides:
+    - name: srv-api      # required by consumers of CAP services (e.g. approuter)
+      properties:
+        srv-url: ${default-url}
+ # --------------------- SERVER MODULE ------------------------
+ - name: cappgo-sinuaa-srv
+ # ------------------------------------------------------------
+   type: nodejs
+   path: ./gen/srv
+   parameters:
+     buildpack: nodejs_buildpack
+     stack: cflinuxfs4
+   build-parameters:
+     ignore: ["node_modules/"]     
+   requires:
+    # Resources extracted from CAP configuration
+    - name: cappgo-db
+    - name: cappgo-destination
+    - name: cappgo-log
+   provides:
+    - name: srv-api-sinuaa      # required by consumers of CAP services (e.g. approuter)
+      properties:
+        srv-url: ${default-url}        
+
+ # -------------------- SIDECAR MODULE ------------------------
+ - name: cappgo-db-deployer
+ # ------------------------------------------------------------
+   type: hdb
+   path: ./gen/db  
+   parameters:
+     buildpack: nodejs_buildpack
+     stack: cflinuxfs4
+   build-parameters:
+     ignore: ["node_modules/"]     
+   requires:
+    # 'hana' and 'xsuaa' resources extracted from CAP configuration
+    - name: cappgo-db
+resources:
+# services extracted from CAP configuration
+# 'service-plan' can be configured via 'cds.requires.<name>.vcap.plan'
+# ------------------------------------------------------------
+ - name: cappgo-db
+# ------------------------------------------------------------
+   type: com.sap.xs.hdi-container
+   parameters:
+     service: hana  # or 'hanatrial' on trial landscapes
+     service-plan: hdi-shared
+   properties:
+     hdi-service-name: ${service-name}
+# --------------------- Destination Service ------------------
+ - name: cappgo-destination
+# ------------------------------------------------------------
+   type: org.cloudfoundry.managed-service
+   parameters:
+     service-plan: lite
+     service: destination     
+# --------------------- XSUAA Service ---------------------
+ - name: cappgo-uaa
+# ------------------------------------------------------------
+   parameters:
+    path: ./xs-security.json
+    service-plan: application
+    service: xsuaa
+    config:
+     xsappname: cappgo-${space}    #  name + space dependency
+     tenant-mode: dedicated
+   type: org.cloudfoundry.managed-service   
+# --------------------- XSUAA Service ---------------------
+ - name: cappgo-log
+# ------------------------------------------------------------
+   type: org.cloudfoundry.managed-service
+   parameters:
+     service: application-logs       
+     service-plan: lite

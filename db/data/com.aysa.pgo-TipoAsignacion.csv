@@ -1,0 +1,12 @@
+ID;descripcion
+CL;Conexiones largas
+CC;Conexiones cortas
+RA;Refacciones asfalto
+RV;Refacciones vereda
+RP;Refacciones pavimento
+DE;Deducciones
+ED;Excavaciones - Distancia parcial
+E1;Excavaciones - 0<PP<2,5
+E2;Excavaciones - 2,5<PP<4
+E3;Excavaciones - PP<4
+MA;Manual

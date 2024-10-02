@@ -1,0 +1,9 @@
+#settings
+@server = http://localhost:4004
+### Aprobar Diagrama de Cuadra
+POST {{server}}/catalog/aprobarDiagramaCuadra
+Content-Type: application/json
+
+{    
+    "ID": "7228a424-581e-4a08-a44f-82ff087a677d"
+}

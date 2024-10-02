@@ -1,0 +1,86 @@
+{
+  "name": "cappgo",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap-cloud-sdk/openapi-generator": "^3.2.0",
+    "@sap/cds": "5.9.8",
+    "@sap/cds-odata-v2-adapter-proxy": "^1.9.21",
+    "@sap/xsenv": "^3.1.1",
+    "@sap/xssec": "^3.6.1",
+    "axios": "^1.4.0",
+    "base64-stream": "^1.0.0",
+    "base64-to-uint8array": "^1.0.0",
+    "buffer-concat": "^1.0.0",
+    "concat-stream": "^2.0.0",
+    "concat-stream-es6": "^0.0.1",
+    "data-uri-to-buffer": "^5.0.1",
+    "express": "^4",
+    "fetch-blob": "^4.0.0",
+    "form-data": "^4.0.0",
+    "form-data-encoder": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "hdb": "^0.18.3",
+    "iconv-lite": "^0.6.3",
+    "js-base64": "^3.7.5",
+    "json-xml-parse": "^1.2.4",
+    "node-blob": "^0.0.2",
+    "node-fetch": "^2.6.7",
+    "npx": "^10.2.2",
+    "passport": "^0.6.0",
+    "pdf-merger-js": "^4.3.0",
+    "rimraf": "^5.0.5",
+    "sap-cf-axios": "^0.4.8",
+    "sap-cf-destconn": "^0.0.37",
+    "stream": "^0.0.2",
+    "tmp": "^0.2.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "sqlite3": "^5.0.2"
+  },
+  "engines": {
+    "node": "^18"
+  },
+  "scripts": {
+    "start": "cds run"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "es2020": true,
+      "node": true,
+      "jest": true,
+      "mocha": true
+    },
+    "globals": {
+      "SELECT": true,
+      "INSERT": true,
+      "UPDATE": true,
+      "DELETE": true,
+      "CREATE": true,
+      "DROP": true,
+      "CDL": true,
+      "CQL": true,
+      "CXL": true,
+      "cds": true
+    },
+    "rules": {
+      "no-console": "off",
+      "require-atomic-updates": "off"
+    }
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "hana"
+      }
+    },
+    "hana": {
+      "deploy-format": "hdbtable"
+    }
+  }
+}

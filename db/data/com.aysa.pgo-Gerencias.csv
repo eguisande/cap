@@ -1,0 +1,10 @@
+ID;descripcion;direccion_ID
+OP;Obras Primarias;DO
+RO;Redes Oeste;DR
+GT;Gerencia Técnica;DO
+EB;Estaciones de Bombeo;DO
+RS;Redes Sur;DR
+CM;Cierre de Mallas;DO
+RC;Redes CABA;DR
+PL;Plantas;DO
+RN;Redes Norte;DR

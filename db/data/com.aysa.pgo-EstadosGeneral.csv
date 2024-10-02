@@ -1,0 +1,44 @@
+ID;descripcion;color
+AA;Aceptada;Success
+APP;Aprobado parcialmente;Warning
+AP;Aprobado;Success
+AC;A completar;Error
+PE;Pendiente de entrega;Error
+BO;Borrador;None
+PI;Pendiente aprobación inspección;Warning
+B;Pendiente aprobación área;Warning
+PV;Pendiente de validación;Error
+VA;Validado;Success
+CO;Contratada;Success
+EJ;En ejecución;Success
+ST;Suspendida Total;Error
+SP;Suspendida Brcial;Warning
+RC;Rescindida;Error
+RE;Rechazada;Error
+FP;Finalización Parcial;Warning
+FT;Finalización Total;Success
+TR;Transferida;Success
+GU;Guardado;None
+RP;Respondida;Success
+PR;Pendiente de respuesta;Warning
+EN;Enviada;Success
+GE;Generada;Success
+PC;Pendiente de aceptación;Warning
+EA;Pendiente de APU;Success
+PF;Pendiente de firma;Warning
+VI;Vigente;Success
+VE;Por vencer;Warning
+VO;Vencido;Error
+ID;Informe disponible;Success
+PH;Permiso rechazado;Error
+PO;Permiso firmado;Success
+PN;Pendiente de aprobación inspector;Warning
+PJ;Pendiente de aprobación jefe inspecciòn;Warning
+PG;Pendiente de aprobación gerente;Warning
+PD;Pendiente de aprobación director;Warning
+PB;Pendiente contrato de adenda;Warning
+PL;Pendiente actualización contractual;Warning
+DS;Documentación solicitada;None
+FI;Finalizada;None
+PJA;Pendiente aprobación jefe de área;Warning
+PT;Pendiente de acta de tradición;Warning

@@ -1,0 +1,4 @@
+ID;descripcion;color
+APC;Apto para construir;Success
+ACC;Apto para construir con comentarios;Warning
+NA;No apto;Error

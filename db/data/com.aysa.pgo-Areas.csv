@@ -1,0 +1,14 @@
+ID;descripcion;ins_aprueba_doc;area_aprueba_doc
+PE;Permisos;true;true
+SH;Seguridad e Higiene;true;true
+IN;Ingeniería;true;true
+GE;Género;true;true
+MA;Medioambiente y Calidad;true;true
+OF;Oferta;true;true
+PA;Partidimetro;true;true
+AP;Análisis de Precio;true;true
+PT;Plan de Trabajo;true;true
+CA;Cartelería;true;true
+PO;Pólizas;true;true
+IS;Inspección;true;false
+IF;Interferencias;true;true

@@ -1,0 +1,11 @@
+ID;subitem_ID;colocacion;prueba_hidraulica;reparacion_vereda;aprobacion_municipal;reparacion_pavimento;porcentaje
+0a691c61-3f58-4a5f-b14a-4126fde0e96c;CANIERIA;true;false;false;false;false;80
+0c32ff0c-640a-4d3a-94ac-0c9f42609ad4;CONEXIONESLARGAS;false;true;true;true;true;10.5
+1e4f4132-ab14-40e4-988f-5006ddcd25b4;CANIERIA;false;false;true;false;false;5
+1ef2e75e-1b36-431f-a04e-1173a58ba0e3;CONEXIONESLARGAS;true;true;false;false;false;69
+46970a40-ab13-47f7-977d-74a3cb9ac3d6;CANIERIA;false;true;false;false;false;10
+5e4a86e0-b2bf-4dd1-b827-84a8e12f25cf;CONEXIONESCORTAS;false;false;false;false;true;1
+87950c70-524c-4234-b185-fd1dee841402;CANIERIA;false;false;false;true;false;5
+c6356907-11e8-4f9a-9d9c-2b9a7f392864;CONEXIONESCORTAS;false;false;false;false;false;2
+eced5970-cec8-452d-85ad-30268a180770;CONEXIONESLARGAS;true;true;true;true;true;21
+f9aaf37e-14bd-4ed4-9bdf-668bb4d73ae3;LEVANTAMIENTOSYREFACCIONES;false;false;false;false;true;5
